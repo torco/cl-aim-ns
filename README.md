@@ -58,7 +58,7 @@ o simplemente
 
     nse.get(9e5, 3, 9, 5)
 
-y esa función te devolvería el NSE correspondiente: en este caso C2 (esta librería fué escrita en 2023). Lo normal sería usarla iterando a lo largo de una lista de personas. los dos archivos .csv son las tablas que publica la AIM, y el script hace poco más que leer esas tablas y buscar cuál celda corresponde a los parametros que le diste (es decir, qué NSE corresponde segun el ingreso, personas del hogar, ocupacion y educacion del "sostenedor del hogar")
+y esa función te devolvería el NSE correspondiente: en este caso C2. Lo normal sería usarla iterando a lo largo de una lista de personas. los dos archivos .csv son las tablas que publica la AIM, y el script hace poco más que leer esas tablas y buscar cuál celda corresponde a los parametros que le diste (es decir, qué NSE corresponde segun el ingreso, personas del hogar, ocupacion y educacion del "sostenedor del hogar")
 
 librerías requeridas: pandas, os, pathlib
 
