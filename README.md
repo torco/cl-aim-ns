@@ -4,7 +4,7 @@ En Chile, sobre todo en estudios de mercado, encuestas de opinión pública y ot
 
 # MANUAL
 
-Baja el repositorio y ponlo en el directorio en que lo vayas a ocupar (no es un módulo o una librería, no se instala con pip install, es una simple carpeta con un script y dos .csv), y luego lo importas con 
+Baja el repositorio y ponlo en el directorio en que lo vayas a ocupar, en un subdirectorio que se llame 'nsclaim' (no es un módulo o una librería, no se instala con pip install, es una simple carpeta con un script y dos .csv), y luego lo importas con 
 
     from nsclaim import nse
 
