@@ -65,4 +65,4 @@ require la librería pandas. la función no está vectorizada, por lo que la ite
     for index, item in df.iterrows():
         df.at[index,'nse']=nse.get(item.ingreso, item.npersonas, item.neduc, item.ocup)
         
-asumiendo, claro, que esos sean los nombres de tus columnas en tu dataframe. 
+asumiendo, claro, que esos sean los nombres de tus columnas en tu dataframe, que tus datos estén codificados con la clave que la función espera (ver arriba), etcétera. 
