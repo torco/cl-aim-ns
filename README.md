@@ -60,7 +60,9 @@ o simplemente
 
 y esa función te devolvería el NSE correspondiente: en este caso C2 (esta librería fué escrita en 2023). Lo normal sería usarla iterando a lo largo de una lista de personas. los dos archivos .csv son las tablas que publica la AIM, y el script hace poco más que leer esas tablas y buscar cuál celda corresponde a los parametros que le diste (es decir, qué NSE corresponde segun el ingreso, personas del hogar, ocupacion y educacion del "sostenedor del hogar")
 
-require la librería pandas. la función no está vectorizada, por lo que la iteración y esas cosas las pone el usuario. lo normal, si tienes digamos un dataframe de pandas con 500 personas, es hacer algo asi como
+librerías requeridas: pandas, os, pathlib
+
+la función no está vectorizada, por lo que la iteración y esas cosas las pone el usuario. lo normal, si tienes digamos un dataframe de pandas con 500 personas, es hacer algo asi como
 
     for index, item in df.iterrows():
         df.at[index,'nse']=nse.get(item.ingreso, item.npersonas, item.neduc, item.ocup)
